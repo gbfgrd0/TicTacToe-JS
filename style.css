@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(29, 186, 248, 0.904);
+}
+
+
+.container{
+    padding-top: 40px;
+    text-align: center;
+    margin: auto;
+    max-width: 900px;
+}
+
+.box{
+    width: 250px;
+    margin: 3px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border: 1px hide white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 0px black;
+
+}
+
+.o{
+    position: relative;
+}
+
+.o::after{
+    content: "\2B55";
+    position: absolute;
+    font-size: 170px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.x{
+    position: relative;
+}
+
+.x::after{
+    content: "\274C";
+    position: absolute;
+    font-size: 170px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.botão{
+    padding: 20px;
+    border: 1px hidden white;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    width: fit-content;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 45px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.botão:hover{
+    cursor: url(./imagens/icons8-cursor-64.png), auto;
+}
